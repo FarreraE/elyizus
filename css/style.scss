@@ -118,7 +118,7 @@ header {
     .sectionA__colB {
         .mainDisplay {
             margin: 2%;
-          //  height: 50vh;
+            //  height: 50vh;
             padding: 2%;
             padding-left: 5%;
             border-left: var(--colorThird) solid 1px;
@@ -160,13 +160,15 @@ header {
         opacity: 0.5;
         .tools__colA--img {
             transform: scale(0.8);
-//            margin-left: 10%;
+            //            margin-left: 10%;
         }
     }
     .tools__colB {
         //  background-color: #80e0fd;
         opacity: 0.5;
         border-right: var(--colorThird) solid 1px;
+        align-items: center;
+        justify-content: center;
         h3 {
             font-size: 1.2em;
             font-weight: bolder;
@@ -179,11 +181,30 @@ header {
     }
     .tools__colC {
         // background-color: yellow;
-        .tools__colC--img {
-            width: 60%;
-            transform: scale(0.7);
-            opacity: 0.5;
+        .tools__colC__slider {
+            overflow: hidden;
+            position: relative;
+            .tools__colC__slider-tracker {
+                display: flex;
+              //  width: calc(100px * 4);
+                animation: scroll 10s infinite alternate;
+                .tools__colC__slide {
+                    .tools__colC--img {
+                        transform: scale(0.6);
+                        opacity: 0.5;
+                    }
+                }
+            }
         }
+    }
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateZ(0%);
+    }
+    100% {
+        transform: translateX(calc(-100px * 4));
     }
 }
 
@@ -204,7 +225,7 @@ header {
             margin-left: 10%;
             //  padding: 5%;
             font-size: 0.8em;
-       //     width: 80%;
+            //     width: 80%;
             font-weight: bolder;
             text-decoration: none;
             opacity: 0.5;
@@ -322,12 +343,14 @@ header {
     }
     .sectionB__mainDisplay__footer {
         margin-top: 2%;
+
         .sectionB__mainDisplay__footer--img {
             transform: scale(0.6);
             opacity: 0.5;
         }
     }
 }
+
 footer {
     //     background-color: red;
     margin-top: 2%;
@@ -353,7 +376,7 @@ footer {
             color: var(--colorSecondary);
             text-align: center;
             font-size: 0.95em;
-       //     font-weight: bold;
+            //     font-weight: bold;
             opacity: 0.5;
             //    background-color: red;
         }
@@ -361,8 +384,9 @@ footer {
             color: var(--colorSecondary);
             opacity: 1;
         }
-    }.footerC{
-        .footer_contact--Logo{
+    }
+    .footerC {
+        .footer_contact--Logo {
             opacity: 0.5;
             transform: scale(0.6);
         }
@@ -429,7 +453,7 @@ footer {
         .sectionA__colB {
             .mainDisplay {
                 margin: 2%;
-           //     height: 50vh;
+                //     height: 50vh;
                 padding: 2%;
                 padding-left: 5%;
                 border-left: var(--colorThird) solid 1px;
