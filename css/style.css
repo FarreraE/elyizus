@@ -67,11 +67,6 @@ header {
   padding: 2%;
 }
 
-header h1 {
-  font-weight: bolder;
-  opacity: 0.5;
-}
-
 header .header__colA {
   margin-top: 1%;
 }
@@ -99,7 +94,7 @@ header .header__colB {
 header .header__nav .nav-link {
   text-decoration: none;
   color: var(--colorSecondary);
-  font-size: 1.2em;
+  font-size: 0.8em;
   font-weight: bold;
   opacity: 0.5;
 }
@@ -140,7 +135,6 @@ header .header__nav .nav-link:hover {
 
 .sectionA .sectionA__colB .mainDisplay {
   margin: 2%;
-  height: 50vh;
   padding: 2%;
   padding-left: 5%;
   border-left: var(--colorThird) solid 1px;
@@ -159,7 +153,7 @@ header .header__nav .nav-link:hover {
 }
 
 .sectionA .sectionA__btn button {
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: bolder;
   text-decoration: none;
   opacity: 0.5;
@@ -185,7 +179,6 @@ header .header__nav .nav-link:hover {
 .tools .tools__colA .tools__colA--img {
   -webkit-transform: scale(0.8);
           transform: scale(0.8);
-  margin-left: 10%;
 }
 
 .tools .tools__colB {
@@ -205,7 +198,7 @@ header .header__nav .nav-link:hover {
 }
 
 .tools .tools__colC .tools__colC--img {
-  width: 24%;
+  width: 60%;
   -webkit-transform: scale(0.7);
           transform: scale(0.7);
   opacity: 0.5;
@@ -225,9 +218,9 @@ header .header__nav .nav-link:hover {
 }
 
 .sectionB .sectionB__Aux button {
-  margin-left: 30%;
-  font-size: 1em;
-  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+  font-size: 0.8em;
   font-weight: bolder;
   text-decoration: none;
   opacity: 0.5;
@@ -252,13 +245,13 @@ header .header__nav .nav-link:hover {
 }
 
 .sectionB .sectionB__colA .sectionB__colA--img {
-  -webkit-transform: scale(0.6);
-          transform: scale(0.6);
+  -webkit-transform: scale(0.4);
+          transform: scale(0.4);
 }
 
 .sectionB .sectionB__colA .sectionB__colA--imgS {
-  -webkit-transform: scale(0.65);
-          transform: scale(0.65);
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
 }
 
 .sectionB .sectionB__colA .nav-link {
@@ -386,8 +379,9 @@ footer .footerB {
 }
 
 footer .footerB .footer_contact--img {
-  -webkit-transform: scale(0.5);
-          transform: scale(0.5);
+  width: 20%;
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
 }
 
 footer .footerA {
@@ -400,18 +394,23 @@ footer .footerA {
 }
 
 footer .footerA .nav-link {
-  padding-top: 5%;
+  padding-top: 2%;
   text-decoration: none;
   color: var(--colorSecondary);
   text-align: center;
-  font-size: 1.2em;
-  font-weight: bold;
+  font-size: 0.95em;
   opacity: 0.5;
 }
 
 footer .footerA .nav-link:hover {
   color: var(--colorSecondary);
   opacity: 1;
+}
+
+footer .footerC .footer_contact--Logo {
+  opacity: 0.5;
+  -webkit-transform: scale(0.6);
+          transform: scale(0.6);
 }
 
 /* MEDIA QUERY 1400px */
@@ -471,7 +470,6 @@ footer .footerA .nav-link:hover {
   }
   .sectionA .sectionA__colB .mainDisplay {
     margin: 2%;
-    height: 50vh;
     padding: 2%;
     padding-left: 5%;
     border-left: var(--colorThird) solid 1px;

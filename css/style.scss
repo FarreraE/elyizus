@@ -57,10 +57,6 @@ header {
     //  background-color: red;
     padding: 2%;
     //padding-top: 5%;
-    h1 {
-        font-weight: bolder;
-        opacity: 0.5;
-    }
     .header__colA {
         margin-top: 1%;
         .header__colA--img {
@@ -82,7 +78,7 @@ header {
         .nav-link {
             text-decoration: none;
             color: var(--colorSecondary);
-            font-size: 1.2em;
+            font-size: 0.8em;
             font-weight: bold;
             opacity: 0.5;
         }
@@ -122,7 +118,7 @@ header {
     .sectionA__colB {
         .mainDisplay {
             margin: 2%;
-            height: 50vh;
+          //  height: 50vh;
             padding: 2%;
             padding-left: 5%;
             border-left: var(--colorThird) solid 1px;
@@ -141,7 +137,7 @@ header {
     }
     .sectionA__btn {
         button {
-            font-size: 1em;
+            font-size: 1.2em;
             font-weight: bolder;
             text-decoration: none;
             opacity: 0.5;
@@ -164,7 +160,7 @@ header {
         opacity: 0.5;
         .tools__colA--img {
             transform: scale(0.8);
-            margin-left: 10%;
+//            margin-left: 10%;
         }
     }
     .tools__colB {
@@ -184,7 +180,7 @@ header {
     .tools__colC {
         // background-color: yellow;
         .tools__colC--img {
-            width: 24%;
+            width: 60%;
             transform: scale(0.7);
             opacity: 0.5;
         }
@@ -203,11 +199,12 @@ header {
         justify-content: space-around;
         padding: 5%;
         button {
+            text-align: center;
             //-top: 32%;
-            margin-left: 30%;
+            margin-left: 10%;
             //  padding: 5%;
-            font-size: 1em;
-            width: 80%;
+            font-size: 0.8em;
+       //     width: 80%;
             font-weight: bolder;
             text-decoration: none;
             opacity: 0.5;
@@ -227,10 +224,10 @@ header {
         justify-content: center;
         align-items: center;
         .sectionB__colA--img {
-            transform: scale(0.6);
+            transform: scale(0.4);
         }
         .sectionB__colA--imgS {
-            transform: scale(0.65);
+            transform: scale(0.5);
         }
         //    background-color: royalblue;
         .nav-link {
@@ -342,7 +339,8 @@ footer {
         //justify-content: center;
         align-items: center;
         .footer_contact--img {
-            transform: scale(0.5);
+            width: 20%;
+            transform: scale(0.7);
         }
     }
     .footerA {
@@ -350,18 +348,23 @@ footer {
         align-items: center;
         justify-content: center;
         .nav-link {
-            padding-top: 5%;
+            padding-top: 2%;
             text-decoration: none;
             color: var(--colorSecondary);
             text-align: center;
-            font-size: 1.2em;
-            font-weight: bold;
+            font-size: 0.95em;
+       //     font-weight: bold;
             opacity: 0.5;
             //    background-color: red;
         }
         .nav-link:hover {
             color: var(--colorSecondary);
             opacity: 1;
+        }
+    }.footerC{
+        .footer_contact--Logo{
+            opacity: 0.5;
+            transform: scale(0.6);
         }
     }
 }
@@ -426,7 +429,7 @@ footer {
         .sectionA__colB {
             .mainDisplay {
                 margin: 2%;
-                height: 50vh;
+           //     height: 50vh;
                 padding: 2%;
                 padding-left: 5%;
                 border-left: var(--colorThird) solid 1px;
