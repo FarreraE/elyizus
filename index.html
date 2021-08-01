@@ -58,18 +58,20 @@
                     </ul>
                 </div>
             </header>
-            <!--                                                                         SECTION A
+            <!--                                                                         SECTION A 
         -->
             <section class="container sectionA">
                 <!--                                                                     SECTION A COL A
         -->
                 <div class="row">
                     <div class="col-12 col-sm-12  offset-md-1 col-md-2  d-flex flex-row sectionA__colA">
-                        <nav class="nav flex-column-center ">
+                        <nav class="container-fluid flex-column-center ">
 
-                            <a class="nav-link" href="#"> <span class="codeVSQoutes">ELYIZUS</span></a>
-                            <a class="nav-link" href="#">SKILLS</a>
-                            <a class="nav-link" href="#">TIME LINE</a>
+                            <button type="button" id="btnElyizus">ELYIZUS</button>
+                            <button type="button" id="btnSkills">SKILLS</button>
+                            <button type="button" id="btnTime">TIME
+                                LINE</button>
+                            <button type="button" id="btnContact">CONTACT</button>
                         </nav>
                     </div>
 
@@ -77,8 +79,8 @@
 -->
                     <div class="col-12 col-sm-12 col-md-9 d-flex flex-row sectionA__colB">
 
-                        <main class="container mainDisplay">
-                            <span class="codeVSQoutes">
+                        <main class="container mainDisplay" id="sectionADisplayer">
+                            <span class=codeVSQoutes>
                                 <h2>ABOUT IT!</h2>
                             </span>
                             <p>Elyizus is the first website created by Ely Jesus Farrera. The aim is to create a project
@@ -91,7 +93,7 @@
                     </div>
                 </div>
                 <div class="container d-flex flex-row justify-content-end sectionA__btn">
-                    <button type="button" class="btn btn-link buttonCatalog">NEXT</button>
+                    <button type="button" id="btnNext">NEXT</button>
                 </div>
             </section>
             <!--                                                                         TOOLS
@@ -101,7 +103,7 @@
                     <img class="tools__colA--img" src="images/tools/github-blanco.svg" alt="">
                     <img class="tools__colA--img" src="images/tools/instagram.svg" alt="">
                 </div>
-                <div class="col-6 offset-md-1 col-md-2 text-center d-flex flex-column align-items-center tools__colB ">
+                <div class="col-6 offset-md-2 col-md-2 text-center d-flex flex-column align-items-center tools__colB ">
                     <h3>Learned</h3>
                     <h4>TOOLS</h4>
                 </div>
@@ -120,7 +122,7 @@
                             <div class="tools__colC__slide">
                                 <img class="tools__colC--img" src="images/tools/bootstrap-blanco.svg" alt="">
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -242,6 +244,7 @@
 
         </div>
     </footer>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

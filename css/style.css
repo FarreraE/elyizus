@@ -53,7 +53,6 @@ body {
 }
 
 .pComent {
-  color: #40a529;
   color: var(--colorVSComment);
 }
 
@@ -116,20 +115,22 @@ header .header__nav .nav-link:hover {
           align-items: center;
 }
 
-.sectionA .sectionA__colA .nav-link {
+.sectionA .sectionA__colA button {
   width: 100%;
   height: 20%;
   text-decoration: none;
   color: var(--colorSecondary);
   text-align: right;
-  font-size: 1.3em;
+  font-size: 2em;
   font-weight: bolder;
-  opacity: 0.8;
+  opacity: 0.5;
+  display: block;
+  background-color: var(--colorPrimary);
+  border: none;
   display: none;
 }
 
-.sectionA .sectionA__colA .nav-link:hover {
-  color: var(--colorSecondary);
+.sectionA .sectionA__colA button:hover {
   opacity: 1;
 }
 
@@ -153,12 +154,17 @@ header .header__nav .nav-link:hover {
 }
 
 .sectionA .sectionA__btn button {
-  font-size: 1.2em;
-  font-weight: bolder;
+  padding: 2% 2.5%;
   text-decoration: none;
-  opacity: 0.5;
   color: var(--colorSecondary);
+  text-align: right;
+  font-size: 1.5em;
+  font-weight: bolder;
+  opacity: 0.5;
+  display: block;
+  background-color: var(--colorPrimary);
   border: var(--colorSecondary) solid 1px;
+  border-radius: 0.2em;
   margin-bottom: 5%;
 }
 
@@ -420,8 +426,8 @@ footer .footerB {
 
 footer .footerB .footer_contact--img {
   width: 20%;
-  -webkit-transform: scale(0.7);
-          transform: scale(0.7);
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
 }
 
 footer .footerA {
@@ -449,8 +455,8 @@ footer .footerA .nav-link:hover {
 
 footer .footerC .footer_contact--Logo {
   opacity: 0.5;
-  -webkit-transform: scale(0.6);
-          transform: scale(0.6);
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
 }
 
 /* MEDIA QUERY 1400px */
@@ -493,7 +499,7 @@ footer .footerC .footer_contact--Logo {
         -ms-flex-align: center;
             align-items: center;
   }
-  .sectionA .sectionA__colA .nav-link {
+  .sectionA .sectionA__colA button {
     width: 100%;
     height: 20%;
     text-decoration: none;
@@ -501,12 +507,10 @@ footer .footerC .footer_contact--Logo {
     text-align: right;
     font-size: 2em;
     font-weight: bolder;
-    opacity: 0.8;
+    opacity: 0.5;
     display: block;
-  }
-  .sectionA .sectionA__colA .nav-link:hover {
-    color: var(--colorSecondary);
-    opacity: 1;
+    background-color: var(--colorPrimary);
+    border: none;
   }
   .sectionA .sectionA__colB .mainDisplay {
     margin: 2%;
@@ -555,10 +559,20 @@ footer .footerC .footer_contact--Logo {
     font-size: 2.8em;
     font-weight: bold;
   }
-  .tools .tools__colC .tools__colC--img {
-    width: 24%;
-    -webkit-transform: scale(0.7);
-            transform: scale(0.7);
+  .tools .tools__colC .tools__colC__slider {
+    overflow: hidden;
+    position: relative;
+  }
+  .tools .tools__colC .tools__colC__slider .tools__colC__slider-tracker {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-animation: scroll 10s infinite alternate;
+            animation: scroll 10s infinite alternate;
+  }
+  .tools .tools__colC .tools__colC__slider .tools__colC__slider-tracker .tools__colC__slide .tools__colC--img {
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
     opacity: 0.5;
   }
   .sectionB .sectionB__Aux {

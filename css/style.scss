@@ -43,7 +43,6 @@ body {
     color: var(--colorSecondary);
 }
 .pComent {
-    color: #40a529;
     color: var(--colorVSComment);
 }
 
@@ -97,21 +96,22 @@ header {
         //    background-color: royalblue;
         align-items: center;
         // background-color: red;
-        .nav-link {
+        button {
             width: 100%;
             height: 20%;
             text-decoration: none;
             color: var(--colorSecondary);
             text-align: right;
-            font-size: 1.3em;
+            font-size: 2em;
             font-weight: bolder;
-            opacity: 0.8;
-            display: none;
+            opacity: 0.5;
+            display: block;
+            background-color: var(--colorPrimary);
             //    background-color: red;
-            //  border-bottom: var(--colorThird) solid 1px;
+            border: none;
+            display: none;
         }
-        .nav-link:hover {
-            color: var(--colorSecondary);
+        button:hover {
             opacity: 1;
         }
     }
@@ -137,13 +137,19 @@ header {
     }
     .sectionA__btn {
         button {
-            font-size: 1.2em;
-            font-weight: bolder;
+            //width:100%;
+            padding:2% 2.5%;
             text-decoration: none;
-            opacity: 0.5;
             color: var(--colorSecondary);
+            text-align: right;
+            font-size: 1.5em;
+            font-weight: bolder;
+            opacity: 0.5;
+            display: block;
+            background-color: var(--colorPrimary);
             border: var(--colorSecondary) solid 1px;
-            //     border-bottom: var(--colorSecondary) solid 1px;
+            border-radius: 0.2em;
+            //    background-color: red;
             margin-bottom: 5%;
         }
         button:hover {
@@ -186,7 +192,7 @@ header {
             position: relative;
             .tools__colC__slider-tracker {
                 display: flex;
-              //  width: calc(100px * 4);
+                //  width: calc(100px * 4);
                 animation: scroll 10s infinite alternate;
                 .tools__colC__slide {
                     .tools__colC--img {
@@ -363,7 +369,7 @@ footer {
         align-items: center;
         .footer_contact--img {
             width: 20%;
-            transform: scale(0.7);
+            transform: scale(0.5);
         }
     }
     .footerA {
@@ -388,7 +394,7 @@ footer {
     .footerC {
         .footer_contact--Logo {
             opacity: 0.5;
-            transform: scale(0.6);
+            transform: scale(0.5);
         }
     }
 }
@@ -432,7 +438,7 @@ footer {
             padding-top: 0%;
             //    background-color: royalblue;
             align-items: center;
-            .nav-link {
+            button {
                 width: 100%;
                 height: 20%;
                 text-decoration: none;
@@ -440,15 +446,13 @@ footer {
                 text-align: right;
                 font-size: 2em;
                 font-weight: bolder;
-                opacity: 0.8;
+                opacity: 0.5;
                 display: block;
-                //    background-color: red;
-                //  border-bottom: var(--colorThird) solid 1px;
+                background-color: var(--colorPrimary);
+         //         background-color: red;
+                border: none;
             }
-            .nav-link:hover {
-                color: var(--colorSecondary);
-                opacity: 1;
-            }
+         
         }
         .sectionA__colB {
             .mainDisplay {
@@ -504,10 +508,20 @@ footer {
         }
         .tools__colC {
             // background-color: yellow;
-            .tools__colC--img {
-                width: 24%;
-                transform: scale(0.7);
-                opacity: 0.5;
+            .tools__colC__slider {
+                overflow: hidden;
+                position: relative;
+                .tools__colC__slider-tracker {
+                    display: flex;
+                    //  width: calc(100px * 4);
+                    animation: scroll 10s infinite alternate;
+                    .tools__colC__slide {
+                        .tools__colC--img {
+                            transform: scale(0.6);
+                            opacity: 0.5;
+                        }
+                    }
+                }
             }
         }
     }
