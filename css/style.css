@@ -218,8 +218,8 @@ header .header__nav .nav-link:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-animation: scroll 10s infinite alternate;
-          animation: scroll 10s infinite alternate;
+  -webkit-animation: scroll 20s infinite alternate;
+          animation: scroll 20s infinite alternate;
 }
 
 .tools .tools__colC .tools__colC__slider .tools__colC__slider-tracker .tools__colC__slide .tools__colC--img {
