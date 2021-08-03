@@ -108,7 +108,7 @@ header .header__colB {
 header .header__nav .nav-link {
   text-decoration: none;
   color: var(--colorSecondary);
-  font-size: 0.8em;
+  font-size: 1em;
   font-weight: bold;
   opacity: 0.5;
 }

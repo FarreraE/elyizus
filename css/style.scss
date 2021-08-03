@@ -99,7 +99,7 @@ header {
         .nav-link {
             text-decoration: none;
             color: var(--colorSecondary);
-            font-size: 0.8em;
+            font-size: 1em;
             font-weight: bold;
             opacity: 0.5;
         }
@@ -460,6 +460,7 @@ footer {
             color: var(--colorSecondary);
             text-align: center;
             font-size: 1em;
+            //font-weight: normal;
             //     font-weight: bold;
             opacity: 0.5;
             //    background-color: red;
