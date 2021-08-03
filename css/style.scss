@@ -175,13 +175,13 @@ header {
             //width:100%;
             padding: 2% 2.5%;
             text-decoration: none;
-            color: var(--colorSecondary);
+            color: var(--colorPrimary);
             text-align: right;
             font-size: 1.5em;
             font-weight: bolder;
             opacity: 0.5;
             display: block;
-            background-color: var(--colorPrimary);
+            background-color: var(--colorSecondary);
             border: var(--colorSecondary) solid 1px;
             border-radius: 0.2em;
             //    background-color: red;
@@ -273,7 +273,7 @@ header {
         padding: 5%;
 
         button {
-            background-color: #ff7f00;
+            background-color: var(--colorSecondary);
             text-align: center;
             //-top: 32%;
             margin-left: 10%;
@@ -283,7 +283,7 @@ header {
             font-weight: bolder;
             text-decoration: none;
             opacity: 0.5;
-            color: var(--colorSecondary);
+            color: var(--colorPrimary);
             border: var(--colorSecondary) solid 1px;
             //     border-bottom: var(--colorSecondary) solid 1px;
         }
@@ -444,8 +444,8 @@ footer {
         align-items: center;
 
         .footer_contact--img {
-            width: 24%;
-            transform: scale(0.6);
+            width: 23%;
+            transform: scale(0.8);
         }
     }
 
@@ -472,6 +472,8 @@ footer {
     }
 
     .footerC {
+        display: flex;
+        justify-content: center;
         .footer_contact--Logo {
             opacity: 0.5;
             transform: scale(0.5);
@@ -739,7 +741,8 @@ footer {
                 }
             }
 
-            .footerC {
+            .footerC { display: flex;
+                justify-content: center;
                 .footer_contact--Logo {
                     //opacity: 0.5;
                     transform: scale(1);
@@ -932,7 +935,8 @@ footer {
                 }
             }
 
-            .footerC {
+            .footerC { display: flex;
+                justify-content: center;
                 .footer_contact--Logo {
                     transform: scale(0.6);
                 }
@@ -1158,7 +1162,7 @@ footer {
                 //    background-color: rgb(22, 44, 44);
                 display: flex;
                 justify-content: center;
-                align-items: flex-start;
+
                 .footer_contact--Logo {
                     transform: scale(0.7);
                 }
@@ -1466,7 +1470,7 @@ footer {
                 padding-top: 0%;
                 //     background-color: #ff7f00;
                 .footer_contact--img {
-                    transform: scale(0.4);
+                    transform: scale(0.38);
                 }
             }
 
@@ -1480,7 +1484,7 @@ footer {
             .footerC {
                 //    background-color: rgb(22, 44, 44);
                 display: flex;
-                justify-content: center;
+        justify-content: center;
                 .footer_contact--Logo {
                     transform: scale(0.6);
                 }

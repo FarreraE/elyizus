@@ -179,13 +179,13 @@ header .header__nav .nav-link:hover {
 .sectionA .sectionA__btn button {
   padding: 2% 2.5%;
   text-decoration: none;
-  color: var(--colorSecondary);
+  color: var(--colorPrimary);
   text-align: right;
   font-size: 1.5em;
   font-weight: bolder;
   opacity: 0.5;
   display: block;
-  background-color: var(--colorPrimary);
+  background-color: var(--colorSecondary);
   border: var(--colorSecondary) solid 1px;
   border-radius: 0.2em;
   margin-bottom: 5%;
@@ -287,14 +287,14 @@ header .header__nav .nav-link:hover {
 }
 
 .sectionB .sectionB__Aux button {
-  background-color: #ff7f00;
+  background-color: var(--colorSecondary);
   text-align: center;
   margin-left: 10%;
   font-size: 1.2em;
   font-weight: bolder;
   text-decoration: none;
   opacity: 0.5;
-  color: var(--colorSecondary);
+  color: var(--colorPrimary);
   border: var(--colorSecondary) solid 1px;
 }
 
@@ -469,9 +469,9 @@ footer .footerB {
 }
 
 footer .footerB .footer_contact--img {
-  width: 24%;
-  -webkit-transform: scale(0.6);
-          transform: scale(0.6);
+  width: 23%;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
 }
 
 footer .footerA {
@@ -495,6 +495,15 @@ footer .footerA .nav-link {
 footer .footerA .nav-link:hover {
   color: var(--colorSecondary);
   opacity: 1;
+}
+
+footer .footerC {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 footer .footerC .footer_contact--Logo {
@@ -572,6 +581,14 @@ footer .footerC .footer_contact--Logo {
   header footer .footerA .nav-link {
     font-size: 1.2em;
     letter-spacing: 0.2em;
+  }
+  header footer .footerC {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   header footer .footerC .footer_contact--Logo {
     -webkit-transform: scale(1);
@@ -692,6 +709,14 @@ footer .footerC .footer_contact--Logo {
   }
   footer .footerA .nav-link {
     font-size: 1.2em;
+  }
+  footer .footerC {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   footer .footerC .footer_contact--Logo {
     -webkit-transform: scale(0.6);
@@ -858,9 +883,6 @@ footer .footerC .footer_contact--Logo {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
   }
   footer .footerC .footer_contact--Logo {
     -webkit-transform: scale(0.7);
@@ -1046,8 +1068,8 @@ footer .footerC .footer_contact--Logo {
     padding-top: 0%;
   }
   footer .footerB .footer_contact--img {
-    -webkit-transform: scale(0.4);
-            transform: scale(0.4);
+    -webkit-transform: scale(0.38);
+            transform: scale(0.38);
   }
   footer .footerA {
     padding-top: 0%;
