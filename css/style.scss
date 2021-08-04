@@ -173,11 +173,11 @@ header {
     .sectionA__btn {
         button {
             //width:100%;
-            padding: 2% 2.5%;
+            padding: 1% 5%;
             text-decoration: none;
             color: var(--colorPrimary);
             text-align: right;
-            font-size: 1.5em;
+            font-size: 1.2em;
             font-weight: bolder;
             opacity: 0.5;
             display: block;
@@ -201,10 +201,16 @@ header {
     padding: 2%;
 
     .tools__colA {
-        opacity: 0.5;
+      
 
         .tools__colA--img {
             transform: scale(0.8);
+            opacity: 0.5;
+            
+            //            margin-left: 10%;
+        }
+        .tools__colA--img:hover {
+            opacity: 1;
             //            margin-left: 10%;
         }
     }

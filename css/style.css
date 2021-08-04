@@ -177,11 +177,11 @@ header .header__nav .nav-link:hover {
 }
 
 .sectionA .sectionA__btn button {
-  padding: 2% 2.5%;
+  padding: 1% 5%;
   text-decoration: none;
   color: var(--colorPrimary);
   text-align: right;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: bolder;
   opacity: 0.5;
   display: block;
@@ -201,13 +201,14 @@ header .header__nav .nav-link:hover {
   padding: 2%;
 }
 
-.tools .tools__colA {
-  opacity: 0.5;
-}
-
 .tools .tools__colA .tools__colA--img {
   -webkit-transform: scale(0.8);
           transform: scale(0.8);
+  opacity: 0.5;
+}
+
+.tools .tools__colA .tools__colA--img:hover {
+  opacity: 1;
 }
 
 .tools .tools__colB {
