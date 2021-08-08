@@ -1,0 +1,75 @@
+.catalogSectionA {
+    border-top: var(--colorThird) solid 1px;
+    padding-top: 5%;
+    .pComent {
+        font-size: 0.8em;
+        text-align: justify;
+        line-height: 1.4;
+        margin-top: 1%;
+    }
+
+    .codeVSChar {
+        font-size: 0.5em;
+    }
+
+    .codeVSTag {
+        font-size: 0.6em;
+    }
+
+    .codeVSClass {
+        font-size: 0.8em;
+    }
+
+    .codeVSQoutes {
+        font-size: 1em;
+    }
+
+    .codeVSWhite {
+        font-size: 0.6em;
+    }
+
+    .pLinkP {
+        text-align: right;
+        padding-right: 3%;
+    }
+}
+
+.releaseTools {
+    // background-color: blue;
+    font-family: "lemon";
+    font-weight: bold;
+    border-top: var(--colorThird) solid 1px;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    .desLogLink__colA {
+        h3 {
+            font-size: 1.3em;
+        }
+        h4 {
+            font-size: 1.2em;
+        }
+    }
+    .desLogLink__colB {
+        .releaseTools__img {
+            width: 22%;
+            transform: scale(1);
+            opacity: 0.8;
+        }
+    }
+}
+.carousel {
+    border-top: var(--colorThird) solid 1px;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.wireframe{
+    border-top: var(--colorThird) solid 1px;
+    padding-top: 5% ;
+    padding-bottom: 5%;
+}
+.misionVision{
+    border-top: var(--colorThird) solid 1px;
+    padding-top: 5%;  
+    padding-bottom: 2%;
+    text-align: justify;
+}
