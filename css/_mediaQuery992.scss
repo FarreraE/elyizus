@@ -1,0 +1,146 @@
+@media all and (min-width: 992px) {
+    header {
+        .header__colB {
+            font-size: 1.4em;
+        }
+
+        .header__nav {
+            .nav-link {
+                font-size: 1.6em;
+                letter-spacing: 0.1em;
+            }
+        }
+    }
+    .sectionA {
+        .sectionA__colA {
+            margin-right: -2%;
+            button {
+                font-size: 1.1em;
+            }
+        }
+        .sectionA__colB {
+            .mainDisplay {
+                h2 {
+                    font-size: 2.1em;
+                }
+            }
+        }
+    }
+    .tools {
+        .tools__colA {
+            .tools__colA--img {
+                transform: scale(1);
+                margin-left: 5%;
+            }
+        }
+
+        .tools__colB {
+            opacity: 0.5;
+            h3 {
+                font-size: 2em;
+            }
+
+            h4 {
+                font-size: 2em;
+            }
+        }
+
+        .tools__colC {
+            .tools__colC__slider {
+                .tools__colC__slider-tracker {
+                    .tools__colC__slide {
+                        .tools__colC--img {
+                            transform: scale(0.6);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .sectionB {
+        .sectionB__Aux {
+            display: none;
+
+            button {
+                display: none;
+            }
+        }
+
+        .sectionB__colA {
+            .sectionB__colA--img {
+                transform: scale(0.55);
+            }
+            .sectionB__colA--imgS {
+                transform: scale(0.65);
+            }
+        }
+        .sectionB__mainDisplay {
+            display: block;
+
+            .mainDisplay__top {
+                h2 {
+                    font-size: 2.2em;
+
+                    .codeVSChar {
+                        font-size: 0.8em;
+                    }
+                    .codeVSTag {
+                        font-size: 0.8em;
+                    }
+                }
+
+                button {
+                    font-size: 1.2em;
+                }
+            }
+
+            .sectionB__mainDisplay__bottom {
+                padding-top: 2%;
+                font-size: 1.5em;
+                .pComent {
+                    line-height: 1.8;
+                }
+                .codeVSChar {
+                    font-size: 0.8em;
+                }
+                .codeVSTag {
+                    font-size: 0.8em;
+                }
+                .codeVSClass {
+                    font-size: 0.8em;
+                }
+                .codeVSQoutes {
+                    font-size: 0.8em;
+                }
+                .codeVSWhite {
+                    font-size: 0.8em;
+                }
+                .pLinkP {
+                    font-size: 0.8em;
+                }
+            }
+        }
+
+        .sectionB__mainDisplay__footer {
+            .sectionB__mainDisplay__footerA {
+                .sectionB__mainDisplay__footerA--img {
+                    transform: scale(1);
+                }
+            }
+            .sectionB__mainDisplay__footerB {
+                .sectionB__mainDisplay__footer--img {
+                    width: 50%;
+                }
+            }
+        }
+    }
+
+    footer {
+        .footerA {
+            .nav-link {
+                font-size: 1.1em;
+            }
+        }
+    }
+}

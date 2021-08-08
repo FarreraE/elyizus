@@ -1,0 +1,103 @@
+@media all and (min-width: 1400px) {
+    header {
+        .header__colB {
+            font-size: 1.5em;
+        }
+        .header__nav {
+            .nav-link {
+                font-size: 1.6em;
+            }
+        }
+    }
+
+    .sectionA {
+        .sectionA__colA {
+            button {
+                font-size: 1.6em;
+            }
+        }
+        .sectionA__colB {
+            .mainDisplay {
+                h2 {
+                    font-size: 2.4em;
+                }
+
+                p {
+                    font-size: 1.3em;
+                }
+            }
+        }
+    }
+
+    .tools {
+        .tools__colA {
+            .tools__colA--img {
+                margin-left: 20%;
+            }
+        }
+        .tools__colB {
+            h3 {
+                font-size: 2.5em;
+            }
+            h4 {
+                font-size: 2.8em;
+                font-weight: bold;
+            }
+        }
+        .tools__colC {
+            .tools__colC__slider {
+                .tools__colC__slider-tracker {
+                    .tools__colC__slide {
+                        .tools__colC--img {
+                            transform: scale(0.8);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .sectionB {
+        .sectionB__colA {
+            .sectionB__colA--img {
+                transform: scale(0.6);
+            }
+            .sectionB__colA--imgS {
+                transform: scale(0.65);
+            }
+        }
+
+        .sectionB__mainDisplay {
+            .mainDisplay__top {
+                h2 {
+                    font-size: 2.5em;
+                }
+
+                button {
+                    font-size: 1.4em;
+                }
+            }
+
+            .sectionB__mainDisplay__bottom {
+                .pComent {
+                    line-height: 1.8;
+                }
+                .codeVSChar {
+                    font-size: 0.9em;
+                }
+                .codeVSTag {
+                    font-size: 0.9em;
+                }
+                .codeVSClass {
+                    font-size: 0.9em;
+                }
+                .codeVSQoutes {
+                    font-size: 0.9em;
+                }
+                .codeVSWhite {
+                    font-size: 0.9em;
+                }
+            }
+        }
+    }
+}

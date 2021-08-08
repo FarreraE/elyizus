@@ -1,0 +1,156 @@
+@media all and (min-width: 768px) {
+    header {
+        .header__colB {
+            font-size: 1.3em;
+            text-align: right;
+            justify-content: right;
+        }
+        .header__nav {
+            margin-top: -4%;
+            .nav-link {
+                font-size: 1.4em;
+                opacity: 0.5;
+            }
+        }
+    }
+
+    .sectionA {
+        .sectionA__colA {
+            padding-top: 0%;
+            display: flex;
+            button {
+                display: block;
+            }
+        }
+        .sectionA__colB {
+            .mainDisplay {
+                h2 {
+                    font-size: 1.9em;
+                }
+            }
+        }
+
+        .sectionA__btn {
+            display: none;
+
+            button {
+                display: none;
+            }
+        }
+    }
+
+    .tools {
+        .tools__colB {
+            h3 {
+                font-size: 1.8em;
+            }
+
+            h4 {
+                font-size: 1.8em;
+                margin-top: -10%;
+            }
+        }
+        .tools__colC {
+            .tools__colC__slider {
+                .tools__colC__slider-tracker {
+                    .tools__colC__slide {
+                        .tools__colC--img {
+                            transform: scale(0.6);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .sectionB {
+        .sectionB__Aux {
+            display: none;
+
+            button {
+                display: none;
+            }
+        }
+        .sectionB__colA {
+            .sectionB__colA--img {
+                transform: scale(0.45);
+            }
+            .sectionB__colA--imgS {
+                transform: scale(0.5);
+            }
+        }
+        .logoOption {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 0.5;
+
+            .logoECrema {
+                width: 15%;
+            }
+            .logoECremaTittle {
+                margin-top: 3%;
+                font-size: 2em;
+            }
+            .arrowCrema {
+                width: 5%;
+                animation: arrow 3s infinite alternate;
+            }
+        }
+        .sectionB__mainDisplay {
+            display: block;
+            .mainDisplay__top {
+                h2 {
+                    font-size: 2.2em;
+
+                    .codeVSChar {
+                        font-size: 0.8em;
+                    }
+
+                    .codeVSTag {
+                        font-size: 0.8em;
+                    }
+                }
+
+                button {
+                    font-size: 1.2em;
+                    letter-spacing: 0.1em;
+                }
+            }
+            .sectionB__mainDisplay__bottom {
+                font-size: 1.5em;
+                .pComent {
+                    text-align: justify;
+                    line-height: 1.6;
+                }
+                .codeVSChar {
+                    font-size: 0.8em;
+                }
+                .codeVSTag {
+                    font-size: 0.8em;
+                }
+                .codeVSClass {
+                    font-size: 0.8em;
+                }
+                .codeVSQoutes {
+                    font-size: 0.8em;
+                }
+                .codeVSWhite {
+                    font-size: 0.8em;
+                }
+                .pLinkP {
+                    font-size: 1.05em;
+                }
+            }
+        }
+    }
+
+    footer {
+        .footerC {
+            .footer_contact--Logo {
+                transform: scale(0.7);
+            }
+        }
+    }
+}
