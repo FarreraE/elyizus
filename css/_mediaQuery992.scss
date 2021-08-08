@@ -137,16 +137,111 @@
     }
 
     footer {
-     
         .footerA {
             .nav-link {
-              font-size: 1.0em;
-            }
-        }.footerC {
-            .footer_contact--Logo {
-                padding-top: 10%;
-               transform: scale(1.5);
+                font-size: 1em;
             }
         }
+        .footerC {
+            .footer_contact--Logo {
+                padding-top: 10%;
+                transform: scale(1.5);
+            }
+        }
+    }
+
+    // C A T A L O G S
+
+    .catalogSectionA {
+        .desLogLink__title {
+            font-size: 2.1em;
+        }
+        .pComent {
+            font-size: 1.3em;
+            text-align: left;
+            line-height: 1.6;
+            margin-top: 1%;
+            .codeVSChar {
+                font-size: 1.2em;
+            }
+
+            .codeVSTag {
+                font-size: 1.2em;
+            }
+
+            .codeVSClass {
+                font-size: 1.2em;
+            }
+
+            .codeVSQoutes {
+                font-size: 1.2em;
+            }
+
+            .codeVSWhite {
+                font-size: 1.2em;
+            }
+        }
+        .catalogSectionA__logo {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .catalogSectionA--logo {
+                transform: scale(1.2);
+            }
+        }
+    }
+    .catalogSsectionB {
+        .linkToSite {
+            padding-top: 0%;
+            .codeVSChar {
+                font-size: 1.2em;
+            }
+
+            .codeVSTag {
+                font-size: 1.2em;
+            }
+
+            .codeVSClass {
+                font-size: 1.2em;
+            }
+
+            .codeVSQoutes {
+                font-size: 1.2em;
+            }
+
+            .codeVSWhite {
+                font-size: 1.2em;
+            }
+            .pLinkP {
+                font-size: 1.5em;
+            }
+        }
+    }
+    .releaseTools {
+        .desLogLink__colA {
+            padding-top: 0%;
+            h3 {
+                font-size: 1.6em;
+            }
+            h4 {
+                margin-top: -3%;
+                font-size: 1.6em;
+            }
+        }
+        .desLogLink__colB {
+            .releaseTools__img {
+                width: 30%;
+                transform: scale(0.7);
+            }
+        }
+    }
+    .carousel {
+        h4 {
+            font-size: 2em;
+        }
+    }
+    .misionVision {
+        font-size: 1.3em;
     }
 }

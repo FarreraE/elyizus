@@ -95,8 +95,89 @@
         }
         .footerC {
             .footer_contact--Logo {
-               transform: scale(1.3);
+                transform: scale(1.3);
             }
         }
+    }
+
+    // C A T A L O G S
+
+    .catalogSectionA {
+        .desLogLink__title {
+            font-size:2.2em;
+        }
+        .pComent {
+            font-size: 1em;
+            text-align: justify;
+            line-height: 1.4;
+            margin-top: 1%;
+        }
+
+        .codeVSChar {
+            font-size: 0.7em;
+        }
+
+        .codeVSTag {
+            font-size: 0.7em;
+        }
+
+        .codeVSClass {
+            font-size: 0.7em;
+        }
+
+        .codeVSQoutes {
+            font-size: 1em;
+        }
+
+        .codeVSWhite {
+            font-size: 0.7em;
+        }
+    }
+    .catalogSsectionB {
+        .linkToSite {
+            .codeVSChar {
+                font-size: 0.8em;
+            }
+
+            .codeVSTag {
+                font-size: 0.8em;
+            }
+
+            .codeVSClass {
+                font-size: 0.8em;
+            }
+
+            .codeVSQoutes {
+                font-size: 1em;
+            }
+
+            .codeVSWhite {
+                font-size: 0.8em;
+            }
+            .pLinkP {
+                font-size: 1.1em;
+            }
+        }
+    }
+    .releaseTools {
+        padding-top: 2%;
+        .desLogLink__colA {
+            h3 {
+                font-size: 1.3em;
+            }
+            h4 {
+                margin-top: -3%;
+                font-size: 1.3em;
+            }
+        }
+        .desLogLink__colB {
+            .releaseTools__img {
+                width: 25%;
+                transform: scale(0.9);
+            }
+        }
+    }
+    .misionVision {
+        font-size: 1.1em;
     }
 }

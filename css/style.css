@@ -591,14 +591,8 @@ footer .footerC .footer_contact--Logo {
   font-size: 0.6em;
 }
 
-.catalogSectionA .pLinkP {
-  text-align: right;
-  padding-right: 3%;
-}
-
 .catalogSsectionB .linkToSite {
   padding-top: 5%;
-  padding-bottom: 5%;
 }
 
 .releaseTools {
@@ -607,6 +601,10 @@ footer .footerC .footer_contact--Logo {
   border-top: var(--colorThird) solid 1px;
   padding-top: 5%;
   padding-bottom: 2%;
+}
+
+.releaseTools .desLogLink__colA {
+  padding-top: 2%;
 }
 
 .releaseTools .desLogLink__colA h3 {
@@ -715,6 +713,66 @@ footer .footerC .footer_contact--Logo {
   footer .footerC .footer_contact--Logo {
     -webkit-transform: scale(1.3);
             transform: scale(1.3);
+  }
+  .catalogSectionA .desLogLink__title {
+    font-size: 2.2em;
+  }
+  .catalogSectionA .pComent {
+    font-size: 1em;
+    text-align: justify;
+    line-height: 1.4;
+    margin-top: 1%;
+  }
+  .catalogSectionA .codeVSChar {
+    font-size: 0.7em;
+  }
+  .catalogSectionA .codeVSTag {
+    font-size: 0.7em;
+  }
+  .catalogSectionA .codeVSClass {
+    font-size: 0.7em;
+  }
+  .catalogSectionA .codeVSQoutes {
+    font-size: 1em;
+  }
+  .catalogSectionA .codeVSWhite {
+    font-size: 0.7em;
+  }
+  .catalogSsectionB .linkToSite .codeVSChar {
+    font-size: 0.8em;
+  }
+  .catalogSsectionB .linkToSite .codeVSTag {
+    font-size: 0.8em;
+  }
+  .catalogSsectionB .linkToSite .codeVSClass {
+    font-size: 0.8em;
+  }
+  .catalogSsectionB .linkToSite .codeVSQoutes {
+    font-size: 1em;
+  }
+  .catalogSsectionB .linkToSite .codeVSWhite {
+    font-size: 0.8em;
+  }
+  .catalogSsectionB .linkToSite .pLinkP {
+    font-size: 1.1em;
+  }
+  .releaseTools {
+    padding-top: 2%;
+  }
+  .releaseTools .desLogLink__colA h3 {
+    font-size: 1.3em;
+  }
+  .releaseTools .desLogLink__colA h4 {
+    margin-top: -3%;
+    font-size: 1.3em;
+  }
+  .releaseTools .desLogLink__colB .releaseTools__img {
+    width: 25%;
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  .misionVision {
+    font-size: 1.1em;
   }
 }
 
@@ -849,6 +907,98 @@ footer .footerC .footer_contact--Logo {
     -webkit-transform: scale(2);
             transform: scale(2);
   }
+  .catalogSectionA .desLogLink__title {
+    font-size: 1.8em;
+  }
+  .catalogSectionA .pComent {
+    font-size: 1.1em;
+    text-align: left;
+    line-height: 1.4;
+    margin-top: 1%;
+  }
+  .catalogSectionA .pComent .codeVSChar {
+    font-size: 0.9em;
+  }
+  .catalogSectionA .pComent .codeVSTag {
+    font-size: 0.9em;
+  }
+  .catalogSectionA .pComent .codeVSClass {
+    font-size: 0.9em;
+  }
+  .catalogSectionA .pComent .codeVSQoutes {
+    font-size: 1em;
+  }
+  .catalogSectionA .pComent .codeVSWhite {
+    font-size: 0.9em;
+  }
+  .catalogSectionA .catalogSectionA__logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .catalogSectionA .catalogSectionA__logo .catalogSectionA--logo {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  .catalogSsectionB .linkToSite {
+    padding-top: 0%;
+  }
+  .catalogSsectionB .linkToSite .codeVSChar {
+    font-size: 1em;
+  }
+  .catalogSsectionB .linkToSite .codeVSTag {
+    font-size: 1em;
+  }
+  .catalogSsectionB .linkToSite .codeVSClass {
+    font-size: 1em;
+  }
+  .catalogSsectionB .linkToSite .codeVSQoutes {
+    font-size: 1.1em;
+  }
+  .catalogSsectionB .linkToSite .codeVSWhite {
+    font-size: 1em;
+  }
+  .catalogSsectionB .linkToSite .pLinkP {
+    font-size: 1.2em;
+  }
+  .releaseTools .desLogLink__colA {
+    padding-top: 2%;
+  }
+  .releaseTools .desLogLink__colA h3 {
+    font-size: 1.6em;
+  }
+  .releaseTools .desLogLink__colA h4 {
+    margin-top: -3%;
+    font-size: 1.6em;
+  }
+  .releaseTools .desLogLink__colB .releaseTools__img {
+    width: 30%;
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  .carousel h4 {
+    font-size: 1.8em;
+  }
+  .misionVision {
+    font-size: 1.1em;
+  }
+  .misionVision .misionVision__colA {
+    padding-right: 2%;
+  }
+  .misionVision .misionVision__colB {
+    border-left: var(--colorThird) solid 1px;
+    padding-left: 2%;
+  }
 }
 
 @media all and (min-width: 992px) {
@@ -948,12 +1098,97 @@ footer .footerC .footer_contact--Logo {
     width: 50%;
   }
   footer .footerA .nav-link {
-    font-size: 1.0em;
+    font-size: 1em;
   }
   footer .footerC .footer_contact--Logo {
     padding-top: 10%;
     -webkit-transform: scale(1.5);
             transform: scale(1.5);
+  }
+  .catalogSectionA .desLogLink__title {
+    font-size: 2.1em;
+  }
+  .catalogSectionA .pComent {
+    font-size: 1.3em;
+    text-align: left;
+    line-height: 1.6;
+    margin-top: 1%;
+  }
+  .catalogSectionA .pComent .codeVSChar {
+    font-size: 1.2em;
+  }
+  .catalogSectionA .pComent .codeVSTag {
+    font-size: 1.2em;
+  }
+  .catalogSectionA .pComent .codeVSClass {
+    font-size: 1.2em;
+  }
+  .catalogSectionA .pComent .codeVSQoutes {
+    font-size: 1.2em;
+  }
+  .catalogSectionA .pComent .codeVSWhite {
+    font-size: 1.2em;
+  }
+  .catalogSectionA .catalogSectionA__logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .catalogSectionA .catalogSectionA__logo .catalogSectionA--logo {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  .catalogSsectionB .linkToSite {
+    padding-top: 0%;
+  }
+  .catalogSsectionB .linkToSite .codeVSChar {
+    font-size: 1.2em;
+  }
+  .catalogSsectionB .linkToSite .codeVSTag {
+    font-size: 1.2em;
+  }
+  .catalogSsectionB .linkToSite .codeVSClass {
+    font-size: 1.2em;
+  }
+  .catalogSsectionB .linkToSite .codeVSQoutes {
+    font-size: 1.2em;
+  }
+  .catalogSsectionB .linkToSite .codeVSWhite {
+    font-size: 1.2em;
+  }
+  .catalogSsectionB .linkToSite .pLinkP {
+    font-size: 1.5em;
+  }
+  .releaseTools .desLogLink__colA {
+    padding-top: 0%;
+  }
+  .releaseTools .desLogLink__colA h3 {
+    font-size: 1.6em;
+  }
+  .releaseTools .desLogLink__colA h4 {
+    margin-top: -3%;
+    font-size: 1.6em;
+  }
+  .releaseTools .desLogLink__colB .releaseTools__img {
+    width: 30%;
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  .carousel h4 {
+    font-size: 2em;
+  }
+  .misionVision {
+    font-size: 1.3em;
   }
 }
 
