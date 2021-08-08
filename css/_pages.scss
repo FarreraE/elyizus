@@ -28,8 +28,8 @@
         font-size: 0.6em;
     }
 }
-.catalogSsectionB{
-    .linkToSite{
+.catalogSsectionB {
+    .linkToSite {
         font-size: 1em;
         padding-top: 5%;
     }
@@ -59,7 +59,7 @@
 .releaseTools {
     font-family: "lemon";
     font-weight: bold;
-   // border-top: var(--colorThird) solid 1px;
+    // border-top: var(--colorThird) solid 1px;
     padding-top: 0%;
     padding-bottom: 2%;
     .desLogLink__colA {
@@ -84,20 +84,14 @@
         }
     }
 }
-.carousel {
+.wireframe {
     border-top: var(--colorThird) solid 1px;
-    border-bottom: var(--colorThird) solid 1px;
     padding-top: 5%;
-    padding-bottom: 2%;
-    font-weight: bolder;
-}
-.wireframe{
-    padding-top: 5% ;
     padding-bottom: 5%;
 }
-.misionVision{
+.misionVision {
     border-top: var(--colorThird) solid 1px;
-    padding-top: 5%;  
+    padding-top: 5%;
     padding-bottom: 2%;
-    text-align: justify ;
+    text-align: justify;
 }

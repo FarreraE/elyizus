@@ -141,6 +141,7 @@ header .header__colA .header__colAContainer h1 {
   text-align: center;
   font-family: "lemon";
   opacity: 0.5;
+  padding-top: 2%;
 }
 
 header .header__colB {
@@ -663,15 +664,8 @@ footer .footerC .footer_contact--Logo {
   opacity: 0.8;
 }
 
-.carousel {
-  border-top: var(--colorThird) solid 1px;
-  border-bottom: var(--colorThird) solid 1px;
-  padding-top: 5%;
-  padding-bottom: 2%;
-  font-weight: bolder;
-}
-
 .wireframe {
+  border-top: var(--colorThird) solid 1px;
   padding-top: 5%;
   padding-bottom: 5%;
 }
@@ -1280,7 +1274,7 @@ footer .footerC .footer_contact--Logo {
     font-size: 0.9em;
   }
   footer .footerA .nav-link {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
   footer .footerC .footer_contact--Logo {
     padding-top: 20%;
