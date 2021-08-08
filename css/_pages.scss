@@ -9,11 +9,11 @@
     }
 
     .codeVSChar {
-        font-size: 0.5em;
+        font-size: 0.8em;
     }
 
     .codeVSTag {
-        font-size: 0.6em;
+        font-size: 1em;
     }
 
     .codeVSClass {
@@ -30,15 +30,37 @@
 }
 .catalogSsectionB{
     .linkToSite{
+        font-size: 1em;
         padding-top: 5%;
+    }
+    .codeVSChar {
+        font-size: 0.8em;
+    }
+
+    .codeVSTag {
+        font-size: 0.8em;
+    }
+
+    .codeVSClass {
+        font-size: 0.8em;
+    }
+
+    .codeVSQoutes {
+        font-size: 1em;
+    }
+
+    .codeVSWhite {
+        font-size: 0.8em;
+    }
+    .pLinkP {
+        font-size: 1.1em;
     }
 }
 .releaseTools {
-    // background-color: blue;
     font-family: "lemon";
     font-weight: bold;
-    border-top: var(--colorThird) solid 1px;
-    padding-top: 5%;
+   // border-top: var(--colorThird) solid 1px;
+    padding-top: 0%;
     padding-bottom: 2%;
     .desLogLink__colA {
         padding-top: 2%;
@@ -67,6 +89,7 @@
     border-bottom: var(--colorThird) solid 1px;
     padding-top: 5%;
     padding-bottom: 2%;
+    font-weight: bolder;
 }
 .wireframe{
     padding-top: 5% ;

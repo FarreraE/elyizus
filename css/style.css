@@ -572,11 +572,11 @@ footer .footerC .footer_contact--Logo {
 }
 
 .catalogSectionA .codeVSChar {
-  font-size: 0.5em;
+  font-size: 0.8em;
 }
 
 .catalogSectionA .codeVSTag {
-  font-size: 0.6em;
+  font-size: 1em;
 }
 
 .catalogSectionA .codeVSClass {
@@ -592,14 +592,38 @@ footer .footerC .footer_contact--Logo {
 }
 
 .catalogSsectionB .linkToSite {
+  font-size: 1em;
   padding-top: 5%;
+}
+
+.catalogSsectionB .codeVSChar {
+  font-size: 0.8em;
+}
+
+.catalogSsectionB .codeVSTag {
+  font-size: 0.8em;
+}
+
+.catalogSsectionB .codeVSClass {
+  font-size: 0.8em;
+}
+
+.catalogSsectionB .codeVSQoutes {
+  font-size: 1em;
+}
+
+.catalogSsectionB .codeVSWhite {
+  font-size: 0.8em;
+}
+
+.catalogSsectionB .pLinkP {
+  font-size: 1.1em;
 }
 
 .releaseTools {
   font-family: "lemon";
   font-weight: bold;
-  border-top: var(--colorThird) solid 1px;
-  padding-top: 5%;
+  padding-top: 0%;
   padding-bottom: 2%;
 }
 
@@ -644,6 +668,7 @@ footer .footerC .footer_contact--Logo {
   border-bottom: var(--colorThird) solid 1px;
   padding-top: 5%;
   padding-bottom: 2%;
+  font-weight: bolder;
 }
 
 .wireframe {
@@ -912,7 +937,7 @@ footer .footerC .footer_contact--Logo {
   }
   .catalogSectionA .pComent {
     font-size: 1.1em;
-    text-align: left;
+    text-align: center;
     line-height: 1.4;
     margin-top: 1%;
   }
@@ -1192,7 +1217,7 @@ footer .footerC .footer_contact--Logo {
   }
 }
 
-@media all and (min-width: 1400px) {
+@media all and (min-width: 1200px) {
   header .header__colB {
     font-size: 1.5em;
   }
@@ -1261,6 +1286,77 @@ footer .footerC .footer_contact--Logo {
     padding-top: 20%;
     -webkit-transform: scale(2);
             transform: scale(2);
+  }
+  .catalogSectionA .desLogLink__title {
+    font-size: 3.2em;
+  }
+  .catalogSectionA .pComent {
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 1.6;
+    margin-top: 2%;
+  }
+  .catalogSectionA .pComent .codeVSChar {
+    font-size: 2.5em;
+  }
+  .catalogSectionA .pComent .codeVSTag {
+    font-size: 2.5em;
+  }
+  .catalogSectionA .pComent .codeVSClass {
+    font-size: 2.5em;
+  }
+  .catalogSectionA .pComent .codeVSQoutes {
+    font-size: 2.5em;
+  }
+  .catalogSectionA .pComent .codeVSWhite {
+    font-size: 2.5em;
+  }
+  .catalogSectionA .catalogSectionA__logo .catalogSectionA--logo {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  .catalogSsectionB .linkToSite {
+    font-size: 1.5em;
+    padding-top: 2%;
+  }
+  .catalogSsectionB .linkToSite .codeVSChar {
+    font-size: 1em;
+  }
+  .catalogSsectionB .linkToSite .codeVSTag {
+    font-size: 1em;
+  }
+  .catalogSsectionB .linkToSite .codeVSClass {
+    font-size: 1em;
+  }
+  .catalogSsectionB .linkToSite .codeVSQoutes {
+    font-size: 1em;
+  }
+  .catalogSsectionB .linkToSite .codeVSWhite {
+    font-size: 1em;
+  }
+  .catalogSsectionB .linkToSite .pLinkP {
+    font-size: 1.5em;
+  }
+  .releaseTools .desLogLink__colA {
+    padding-top: 2%;
+  }
+  .releaseTools .desLogLink__colA h3 {
+    font-size: 2.5em;
+  }
+  .releaseTools .desLogLink__colA h4 {
+    margin-top: -1%;
+    font-size: 2.5em;
+  }
+  .releaseTools .desLogLink__colB .releaseTools__img {
+    width: 30%;
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  .carousel h4 {
+    font-size: 2.5em;
+  }
+  .misionVision {
+    font-size: 1.8em;
   }
 }
 /*# sourceMappingURL=style.css.map */

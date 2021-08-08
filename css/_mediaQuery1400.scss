@@ -1,4 +1,4 @@
-@media all and (min-width: 1400px) {
+@media all and (min-width: 1200px) {
     header {
         .header__colB {
             font-size: 1.5em;
@@ -115,4 +115,95 @@
         }
     }
     // C A T A L O G S
+
+      .catalogSectionA {
+        .desLogLink__title {
+            font-size: 3.2em;
+        }
+        .pComent {
+            font-size: 1.5em;
+            text-align: center;
+            line-height: 1.6;
+            margin-top: 2%;
+            .codeVSChar {
+                font-size: 2.5em;
+            }
+
+            .codeVSTag {
+                font-size: 2.5em;
+            }
+
+            .codeVSClass {
+                font-size: 2.5em;
+            }
+
+            .codeVSQoutes {
+                font-size: 2.5em;
+            }
+
+            .codeVSWhite {
+                font-size: 2.5em;
+            }
+        }
+        .catalogSectionA__logo {
+        
+            .catalogSectionA--logo {
+                transform: scale(1.5);
+            }
+        }
+    }
+    .catalogSsectionB {
+        .linkToSite {
+            font-size: 1.5em;
+            padding-top: 2%;
+            .codeVSChar {
+                font-size: 1em;
+            }
+
+            .codeVSTag {
+                font-size: 1em;
+            }
+
+            .codeVSClass {
+                font-size: 1em;
+            }
+
+            .codeVSQoutes {
+                font-size: 1em;
+            }
+
+            .codeVSWhite {
+                font-size: 1em;
+            }
+            .pLinkP {
+                font-size: 1.5em;
+            }
+        }
+    }
+    .releaseTools {
+        .desLogLink__colA {
+            padding-top: 2%;
+            h3 {
+                font-size: 2.5em;
+            }
+            h4 {
+                margin-top: -1%;
+                font-size: 2.5em;
+            }
+        }
+        .desLogLink__colB {
+            .releaseTools__img {
+                width: 30%;
+                transform: scale(0.7);
+            }
+        }
+    }
+    .carousel {
+        h4 {
+            font-size: 2.5em;
+        }
+    }
+    .misionVision {
+        font-size: 1.8em;
+    }
 }
