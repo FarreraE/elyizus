@@ -69,9 +69,10 @@ body {
   background-color: var(--colorPrimary);
   color: var(--colorSecondary);
   font-family: "Baloo 2", cursive;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  background-color: blue;
+  overflow-x: hidden;
+  /* Hide horizontal scrollbar */
+  scrollbar-width: none;
 }
 
 .internal {
