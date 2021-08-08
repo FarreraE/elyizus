@@ -33,7 +33,12 @@
         padding-right: 3%;
     }
 }
-
+.catalogSsectionB{
+    .linkToSite{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+}
 .releaseTools {
     // background-color: blue;
     font-family: "lemon";
@@ -43,27 +48,32 @@
     padding-bottom: 2%;
     .desLogLink__colA {
         h3 {
-            font-size: 1.3em;
+            font-size: 1em;
         }
         h4 {
-            font-size: 1.2em;
+            margin-top: -5%;
+            font-size: 1em;
         }
     }
     .desLogLink__colB {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
         .releaseTools__img {
-            width: 22%;
-            transform: scale(1);
+            width: 30%;
+            transform: scale(0.9);
             opacity: 0.8;
         }
     }
 }
 .carousel {
     border-top: var(--colorThird) solid 1px;
+    border-bottom: var(--colorThird) solid 1px;
     padding-top: 5%;
     padding-bottom: 2%;
 }
 .wireframe{
-    border-top: var(--colorThird) solid 1px;
     padding-top: 5% ;
     padding-bottom: 5%;
 }

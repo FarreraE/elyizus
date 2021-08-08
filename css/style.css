@@ -596,6 +596,11 @@ footer .footerC .footer_contact--Logo {
   padding-right: 3%;
 }
 
+.catalogSsectionB .linkToSite {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
 .releaseTools {
   font-family: "lemon";
   font-weight: bold;
@@ -605,28 +610,45 @@ footer .footerC .footer_contact--Logo {
 }
 
 .releaseTools .desLogLink__colA h3 {
-  font-size: 1.3em;
+  font-size: 1em;
 }
 
 .releaseTools .desLogLink__colA h4 {
-  font-size: 1.2em;
+  margin-top: -5%;
+  font-size: 1em;
+}
+
+.releaseTools .desLogLink__colB {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .releaseTools .desLogLink__colB .releaseTools__img {
-  width: 22%;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  width: 30%;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
   opacity: 0.8;
 }
 
 .carousel {
   border-top: var(--colorThird) solid 1px;
+  border-bottom: var(--colorThird) solid 1px;
   padding-top: 5%;
   padding-bottom: 2%;
 }
 
 .wireframe {
-  border-top: var(--colorThird) solid 1px;
   padding-top: 5%;
   padding-bottom: 5%;
 }
