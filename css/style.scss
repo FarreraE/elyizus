@@ -45,8 +45,6 @@ body {
 }
 .internal {
     background-color: var(--colorPrimary);
-    //margin-right: auto;
-    //margin-left: auto;
 }
 
 .codeVSChar {
@@ -112,11 +110,12 @@ header {
     }
 
     .header__nav {
+        width: 100%;
         .nav-link {
             text-decoration: none;
             color: var(--colorSecondary);
             font-size: 1em;
-            font-weight: bold;
+         //   font-weight: bold;
             opacity: 0.5;
         }
 
