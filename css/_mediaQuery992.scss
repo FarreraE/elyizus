@@ -137,9 +137,15 @@
     }
 
     footer {
+     
         .footerA {
             .nav-link {
-                font-size: 1.1em;
+              font-size: 1.0em;
+            }
+        }.footerC {
+            .footer_contact--Logo {
+                padding-top: 10%;
+               transform: scale(1.5);
             }
         }
     }

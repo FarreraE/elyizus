@@ -42,14 +42,11 @@ body {
     background-color: var(--colorPrimary);
     color: var(--colorSecondary);
     font-family: "Baloo 2", cursive;
-    //justify-content: center;
-    background-color: blue;
-    overflow-x: hidden; /* Hide horizontal scrollbar */
-    scrollbar-width: none;  
 }
-
 .internal {
     background-color: var(--colorPrimary);
+    //margin-right: auto;
+    //margin-left: auto;
 }
 
 .codeVSChar {
@@ -416,6 +413,7 @@ footer {
         align-items: center;
         .footer_contact--img {
             width: 23%;
+            opacity: 0.5;
             transform: scale(0.8);
         }
     }
@@ -444,8 +442,9 @@ footer {
         display: flex;
         justify-content: center;
         .footer_contact--Logo {
+            padding-top: 10%;
             opacity: 0.5;
-            transform: scale(0.5);
+            transform: scale(1);
         }
     }
 }
