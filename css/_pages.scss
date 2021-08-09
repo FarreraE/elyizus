@@ -2,7 +2,7 @@
     border-top: var(--colorThird) solid 1px;
     padding-top: 5%;
     .pComent {
-        font-size: 0.8em;
+        font-size: 1em;
         text-align: justify;
         line-height: 1.4;
         margin-top: 1%;
@@ -13,7 +13,7 @@
     }
 
     .codeVSTag {
-        font-size: 1em;
+        font-size: 0.75em;
     }
 
     .codeVSClass {
@@ -70,6 +70,11 @@
         h4 {
             margin-top: -5%;
             font-size: 1em;
+            .null{
+                font-family: "Baloo 2";
+                color: rgb(192, 76, 76);
+                opacity: 1;
+            }
         }
     }
     .desLogLink__colB {

@@ -24,7 +24,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon_io/android-chrome-192x192.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/android-chrome-512x512.png">
-    <title>Puzku</title>
+    <title>Puzku Catalog</title>
 </head>
 
 <body>
@@ -37,9 +37,9 @@
             <div class="row">
                 <div class="col-12  col-md-4  header__colA">
                     <div class="container header__colAContainer" data-aos="slide-down">
-                        <img class="header__colA--img" src="../images/logo/logo-crema.svg" alt="logo"
-                            class="header__logo">
-                        <h1>PORTFOLIO</h1>
+                        <a href="../index.html"><img class="header__colA--img" src="../images/logo/logo-crema.svg"
+                                alt="logo" class="header__logo"></a>
+                        <h1>CATALOG</h1>
                     </div>
                 </div>
                 <!--                                                                 HEADER COL B
@@ -59,7 +59,8 @@
                         <a class="nav-link" href="../index.html#sectionB">PROYECTS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html#sectionA" id="contactHeader">CONTACT</a>
+                        <a class="nav-link" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal" id="contactHeader">CONTACT</a>
                     </li>
                 </ul>
             </div>
@@ -103,12 +104,12 @@
                 <div class="row">
                     <div class="col-6  col-sm-4 col-md-4 text-center desLogLink__colA" data-aos="slide-right">
                         <h3>RELEASE DAY</h3>
-                        <h4>Comming Soon</h4>
+                        <h4><span class="null">NullPointerException</span></h4>
                     </div>
                     <div class="col-6 col-sm-8 offset-md-2 col-md-6 text-center desLogLink__colB" data-aos="slide-left">
-                        <img class="img releaseTools__img" src="../images/tools/html-blanco.svg" alt="html">
-                        <img class="img releaseTools__img" src="../images/tools/bootstrap-blanco.svg" alt="bootstrap">
                         <img class="img releaseTools__img" src="../images/tools/js-blanco.svg" alt="js">
+                        <img class="img releaseTools__img" src="../images/tools/bootstrap-blanco.svg" alt="bootstrap">
+                        <img class="img releaseTools__img" src="../images/tools/html-blanco.svg" alt="html">
                         <img class="img releaseTools__img" src="../images/tools/css-blanco.svg" alt="css">
                     </div>
                 </div>
@@ -129,11 +130,12 @@
                     <p class="misionVisionP" data-aos="slide-right"> <span class="codeVSChar">&#60;</span><span
                             class="codeVSTag">article</span><span class="codeVSClass">
                             class</span>= <span class="codeVSQoutes">"mission"</span><span
-                            class="codeVSChar">></span><span class="codeVSChar">The PAF satisfies the work needs of a
-                            specific group facilitating the record
-                            of repetitive tasks to standardize processes, improving the data quality, and optimizing the
-                            time of the modus operating. </span><span class="codeVSChar">&#60;/</span><span
-                            class="codeVSTag">article</span><span class="codeVSChar">></span></p>
+                            class="codeVSChar">></span>&#32;Develop a board game to manifest my programming logic skills on
+                        JS and creativity in originating or combining ideas. Puzku is developed centered on providing an
+                        excellent user experience and entertainment.
+                        <span class="codeVSChar">&#60;/</span><span class="codeVSTag">article</span><span
+                            class="codeVSChar">></span>
+                    </p>
 
                     <p class="pComent" data-aos="zoom-out">&#60;!-- Improve by improving! --></p>
                 </div>
@@ -142,13 +144,11 @@
                 <div class="col-12 col-sm-12 col-md-6 misionVision__colB" data-aos="fade">
                     <p class="misionVisionP" data-aos="slide-left"><span class="codeVSChar">&#60;</span><span
                             class="codeVSTag">article</span><span class="codeVSClass">
-                            class</span>= <span class="codeVSQoutes">"vision"</span><span
-                            class="codeVSChar">></span><span class="codeVSChar">The direction is to evolve the tool to
-                            make a full-fledged PAF, providing the
-                            user the experience of generating personalized reports based on pre-selected inputs that
-                            could
-                            be stored and used for others members of the community. </span><span
-                            class="codeVSChar">&#60;/</span><span class="codeVSTag">article</span><span
+                            class</span>= <span class="codeVSQoutes">"vision"</span><span class="codeVSChar">></span>&#32;To
+                        evolve the website into an APP that
+                        records users and scores to store a global ranking. Allow the interaction and competition
+                        among the players of the community. Puzku aims to be available in the main AppStores of the
+                        market.<span class="codeVSChar">&#60;/</span><span class="codeVSTag">article</span><span
                             class="codeVSChar">></span></p>
                 </div>
             </div>
@@ -160,7 +160,8 @@
                         <nav class="nav flex-row" data-aos="fade-right">
                             <a class="nav-link" href="../index.html#sectionA">ELYIZUS</a>
                             <a class="nav-link" href="../index.html#sectionB">PROYECTS</a>
-                            <a class="nav-link" href="../index.html#sectionA" id="contactFooter">CONTACT</a>
+                            <a class="nav-link" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal" id="contactFooter">CONTACT</a>
                         </nav>
                     </div>
                 </div>
@@ -182,6 +183,47 @@
             </div>
         </footer>
     </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="row modal__Top">
+                        <h2>Call Me Maybe 📞</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                            id="modalClose"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+    
+                            <div class="col-9 offset-sm-1 col-sm-8 colGeneral">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="name@example.com">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                                <div class="mb-3 modal__bottom">
+                                    <img src="../images/logo/logo-crema2.svg" class="modalE" alt="">
+                                    <button type="button" class="btn btnSubmit" data-bs-dismiss="modal"
+                                        id="submit">Submit</button>
+                                </div>
+                            </div>
+                            <div class="col-2 colGeneral">
+                                <a href="https://www.gmail.com/"><img class="form_contact--img"
+                                        src="../images/social-media/gmail-footer.svg" alt=""></a>
+                                <a href="https://www.linkedin.com/"><img class="form_contact--img"
+                                        src="../images/social-media/linkdin-footer.svg" alt=""></a>
+                                <a href="https://www.youtube.com/"><img class="form_contact--img"
+                                        src="../images/social-media/youtube-footer.svg" alt=""></a>
+                                <a href="https://www.instagram.com/elyizus.ig/?hl=es"><img class="form_contact--img"
+                                        src="../images/social-media/ig-footer.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
     <script src="js/main.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>

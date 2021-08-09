@@ -128,7 +128,6 @@ header {
     border-top: var(--colorThird) solid 1px;
     .sectionA__colA {
         padding-top: 2%;
-        margin-right: -5%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -136,15 +135,17 @@ header {
         button {
             width: 100%;
             color: var(--colorSecondary);
-            font-size: 1.4rem;
+            font-size: 1.8rem;
             font-weight: bold;
             opacity: 0.5;
-            background-color: var(--colorPrimary);
+            background-color: inherit;
             border: none;
             display: none;
-            margin-top: 5%;
+            padding-top: 25%;
+            padding-bottom: 10%;
             text-align: right;
-            width: 100%;
+            width: 120%;
+            border-bottom: var(--colorThird) solid 1px;
         }
 
         button:hover {
@@ -399,6 +400,67 @@ header {
         }
     }
 }
+.modal-content {
+    background-color: var(--colorPrimary);
+    color: var(--colorSecondary);
+    font-family: "Baloo 2";
+    font-size: 1.3em;
+    font-weight: bold;
+    justify-content: center;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    .modal__Top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        h2 {
+            width: 75%;
+            font-weight: bolder;
+            font-size: 1.5em;
+            letter-spacing: 0.1em;
+            text-align: center;
+        }
+        .btn-close {
+            margin-right: 5%;
+            background-color: var(--colorSecondary);
+        }
+    }
+    .modal-body {
+        border-top: var(--colorSecondary) solid 1px;
+        .form_contact--img {
+            transform: scale(0.7);
+        }
+        .colGeneral {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .btnSubmit {
+            padding: 2% 5%;
+            text-decoration: none;
+            color: var(--colorSecondary);
+            text-align: right;
+            font-size: 1em;
+            font-weight: bolder;
+            //height: 15%;
+            background-color: var(--colorPrimary);
+            border: var(--colorSecondary) solid 1px;
+            border-radius: 0.2em;
+            // margin-bottom: 5%;
+        }
+        .modal__bottom {
+            //background-color: red;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            .modalE {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
 
 footer {
     margin-top: 2%;
@@ -450,3 +512,13 @@ footer {
 @import "mediaQuery768";
 @import "mediaQuery992";
 @import "mediaQuery1200";
+
+@media all and (min-width: 1400px) {
+    footer {
+        .footerA {
+            .nav-link {
+                font-size: 1.6em;
+            }
+        }
+    }
+}

@@ -174,7 +174,6 @@ header .header__nav .nav-link:hover {
 
 .sectionA .sectionA__colA {
   padding-top: 2%;
-  margin-right: -5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -191,15 +190,17 @@ header .header__nav .nav-link:hover {
 .sectionA .sectionA__colA button {
   width: 100%;
   color: var(--colorSecondary);
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   font-weight: bold;
   opacity: 0.5;
-  background-color: var(--colorPrimary);
+  background-color: inherit;
   border: none;
   display: none;
-  margin-top: 5%;
+  padding-top: 25%;
+  padding-bottom: 10%;
   text-align: right;
-  width: 100%;
+  width: 120%;
+  border-bottom: var(--colorThird) solid 1px;
 }
 
 .sectionA .sectionA__colA button:hover {
@@ -500,6 +501,99 @@ header .header__nav .nav-link:hover {
   opacity: 0.5;
 }
 
+.modal-content {
+  background-color: var(--colorPrimary);
+  color: var(--colorSecondary);
+  font-family: "Baloo 2";
+  font-size: 1.3em;
+  font-weight: bold;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.modal-content .modal__Top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.modal-content .modal__Top h2 {
+  width: 75%;
+  font-weight: bolder;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+.modal-content .modal__Top .btn-close {
+  margin-right: 5%;
+  background-color: var(--colorSecondary);
+}
+
+.modal-content .modal-body {
+  border-top: var(--colorSecondary) solid 1px;
+}
+
+.modal-content .modal-body .form_contact--img {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+
+.modal-content .modal-body .colGeneral {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.modal-content .modal-body .btnSubmit {
+  padding: 2% 5%;
+  text-decoration: none;
+  color: var(--colorSecondary);
+  text-align: right;
+  font-size: 1em;
+  font-weight: bolder;
+  background-color: var(--colorPrimary);
+  border: var(--colorSecondary) solid 1px;
+  border-radius: 0.2em;
+}
+
+.modal-content .modal-body .modal__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal-content .modal-body .modal__bottom .modalE {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 footer {
   margin-top: 2%;
   margin-bottom: 3%;
@@ -566,7 +660,7 @@ footer .footerC .footer_contact--Logo {
 }
 
 .catalogSectionA .pComent {
-  font-size: 0.8em;
+  font-size: 1em;
   text-align: justify;
   line-height: 1.4;
   margin-top: 1%;
@@ -577,7 +671,7 @@ footer .footerC .footer_contact--Logo {
 }
 
 .catalogSectionA .codeVSTag {
-  font-size: 1em;
+  font-size: 0.75em;
 }
 
 .catalogSectionA .codeVSClass {
@@ -639,6 +733,12 @@ footer .footerC .footer_contact--Logo {
 .releaseTools .desLogLink__colA h4 {
   margin-top: -5%;
   font-size: 1em;
+}
+
+.releaseTools .desLogLink__colA h4 .null {
+  font-family: "Baloo 2";
+  color: #c04c4c;
+  opacity: 1;
 }
 
 .releaseTools .desLogLink__colB {
@@ -1012,11 +1112,11 @@ footer .footerC .footer_contact--Logo {
     font-size: 1.1em;
   }
   .misionVision .misionVision__colA {
-    padding-right: 2%;
+    padding-right: 5%;
   }
   .misionVision .misionVision__colB {
     border-left: var(--colorThird) solid 1px;
-    padding-left: 2%;
+    padding-left: 5%;
   }
 }
 
@@ -1030,9 +1130,6 @@ footer .footerC .footer_contact--Logo {
   }
   .sectionA .sectionA__colA {
     margin-right: -2%;
-  }
-  .sectionA .sectionA__colA button {
-    font-size: 1.1em;
   }
   .sectionA .sectionA__colB .mainDisplay h2 {
     font-size: 2.1em;
@@ -1219,7 +1316,7 @@ footer .footerC .footer_contact--Logo {
     font-size: 1.6em;
   }
   .sectionA .sectionA__colA button {
-    font-size: 1.6em;
+    font-size: 2.0em;
   }
   .sectionA .sectionA__colB .mainDisplay h2 {
     font-size: 2.4em;
@@ -1350,6 +1447,12 @@ footer .footerC .footer_contact--Logo {
   }
   .misionVision {
     font-size: 1.8em;
+  }
+}
+
+@media all and (min-width: 1400px) {
+  footer .footerA .nav-link {
+    font-size: 1.6em;
   }
 }
 /*# sourceMappingURL=style.css.map */
