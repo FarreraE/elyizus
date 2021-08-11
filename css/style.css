@@ -572,7 +572,7 @@ header .header__nav .nav-link:hover {
   text-decoration: none;
   color: var(--colorSecondary);
   text-align: center;
-  font-size: 1.2em;
+  font-size: 0.8em;
   font-weight: bolder;
   background-color: var(--colorPrimary);
   border: var(--colorSecondary) solid 1px;
