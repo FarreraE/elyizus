@@ -506,7 +506,7 @@ header .header__nav .nav-link:hover {
   background-color: var(--colorPrimary);
   color: var(--colorSecondary);
   font-family: "Baloo 2";
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: bold;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -546,8 +546,8 @@ header .header__nav .nav-link:hover {
 }
 
 .modal-content .modal-body .form_contact--img {
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
+  -webkit-transform: scale(0.6);
+          transform: scale(0.6);
 }
 
 .modal-content .modal-body .colGeneral {
