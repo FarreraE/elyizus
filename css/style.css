@@ -501,102 +501,6 @@ header .header__nav .nav-link:hover {
   opacity: 0.5;
 }
 
-.modal-content {
-  width: 80%;
-  background-color: var(--colorPrimary);
-  color: var(--colorSecondary);
-  font-family: "Baloo 2";
-  font-size: 1em;
-  font-weight: bold;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
-  padding-top: 5%;
-  padding-bottom: 2%;
-}
-
-.modal-content .modal__Top {
-  padding-bottom: 2%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.modal-content .modal__Top h2 {
-  width: 75%;
-  font-weight: bolder;
-  font-size: 1.5em;
-  letter-spacing: 0.1em;
-  text-align: center;
-}
-
-.modal-content .modal__Top .btn-close {
-  margin-right: 5%;
-  background-color: var(--colorSecondary);
-}
-
-.modal-content .modal-body {
-  border-top: var(--colorSecondary) solid 1px;
-}
-
-.modal-content .modal-body .middle .modal__bottom {
-  margin-top: 2%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.modal-content .modal-body .middle .modal__bottom .modalE {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
-.modal-content .modal-body .middle .modal__bottom .btnSubmit {
-  text-decoration: none;
-  color: var(--colorSecondary);
-  text-align: center;
-  font-size: 0.8em;
-  font-weight: bolder;
-  background-color: var(--colorPrimary);
-  border: var(--colorSecondary) solid 1px;
-  border-radius: 0.2em;
-}
-
-.modal-content .modal-body .middle .colGeneral {
-  margin-top: 2%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.modal-content .modal-body .middle .colGeneral .form_contact--img {
-  width: 100%;
-  -webkit-transform: scale(0.7);
-          transform: scale(0.7);
-}
-
 footer {
   margin-top: 2%;
   margin-bottom: 3%;
@@ -655,6 +559,99 @@ footer .footerC .footer_contact--Logo {
   opacity: 0.5;
   -webkit-transform: scale(1);
           transform: scale(1);
+}
+
+.modal-content {
+  background-color: var(--colorPrimary);
+  color: var(--colorSecondary);
+  font-family: "Baloo 2";
+  font-size: 1em;
+  font-weight: bold;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.modal-content .modal__Top {
+  padding-bottom: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.modal-content .modal__Top h2 {
+  width: 75%;
+  font-weight: bolder;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+.modal-content .modal__Top .btn-close {
+  margin-right: 5%;
+  background-color: var(--colorSecondary);
+}
+
+.modal-content .modal-body {
+  border-top: var(--colorSecondary) solid 1px;
+}
+
+.modal-content .modal-body .middle .modal__bottom {
+  margin-top: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal-content .modal-body .middle .modal__bottom .modalE {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.modal-content .modal-body .middle .modal__bottom .btnSubmit {
+  text-decoration: none;
+  color: var(--colorSecondary);
+  text-align: center;
+  font-size: 1em;
+  font-weight: bolder;
+  background-color: var(--colorPrimary);
+  border: var(--colorSecondary) solid 1px;
+  border-radius: 0.2em;
+}
+
+.modal-content .modal-body .middle .colGeneral {
+  margin-top: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.modal-content .modal-body .middle .colGeneral .form_contact--img {
+  width: 100%;
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
 }
 
 .catalogSectionA {
@@ -835,6 +832,42 @@ footer .footerC .footer_contact--Logo {
   footer .footerC .footer_contact--Logo {
     -webkit-transform: scale(1.3);
             transform: scale(1.3);
+  }
+  .modal-content {
+    font-size: 1.1em;
+  }
+  .modal-content .modal__Top h2 {
+    font-size: 1.5em;
+  }
+  .modal-content .modal__Top .btn-close {
+    margin-right: 5%;
+  }
+  .modal-content .modal-body .middle .modal__bottom {
+    margin-top: 5%;
+  }
+  .modal-content .modal-body .middle .modal__bottom .modalE {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  .modal-content .modal-body .middle .modal__bottom .btnSubmit {
+    font-size: 1.2em;
+  }
+  .modal-content .modal-body .middle .colGeneral {
+    margin-top: 2%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .modal-content .modal-body .middle .colGeneral .form_contact--img {
+    width: 100%;
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
   }
   .catalogSectionA .desLogLink__title {
     font-size: 2.2em;

@@ -400,76 +400,6 @@ header {
         }
     }
 }
-.modal-content {
-    width: 80%;
-    background-color: var(--colorPrimary);
-    color: var(--colorSecondary);
-    font-family: "Baloo 2";
-    font-size: 1em;
-    font-weight: bold;
-    justify-content: center;
-    width: 100%;
-    padding-top: 5%;
-    padding-bottom: 2%;
-    .modal__Top {
-        padding-bottom: 2%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        h2 {
-            width: 75%;
-            font-weight: bolder;
-            font-size: 1.5em;
-            letter-spacing: 0.1em;
-            text-align: center;
-        }
-        .btn-close {
-            margin-right: 5%;
-            background-color: var(--colorSecondary);
-        }
-    }
-    .modal-body {
-        border-top: var(--colorSecondary) solid 1px;
-        .middle {
-           // background-color: khaki;
-            .modal__bottom {
-            //    background-color: red;
-                margin-top: 2%;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-around;
-                align-items: center;
-                .modalE {
-                    transform: scale(1.1);
-                }
-                .btnSubmit {
-                    text-decoration: none;
-                    color: var(--colorSecondary);
-                    text-align: center;
-                    font-size: 0.8em;
-                    font-weight: bolder;
-                    //height: 15%;
-                    background-color: var(--colorPrimary);
-                    border: var(--colorSecondary) solid 1px;
-                    border-radius: 0.2em;
-                    // margin-bottom: 5%;
-                }
-            }
-            .colGeneral {
-              //  background-color: lightcoral;
-                margin-top: 2%;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-around;
-                .form_contact--img {
-                   width: 100%;
-                    transform: scale(0.7);
-                }
-            }
-        }
-    }
-}
-
 footer {
     margin-top: 2%;
     margin-bottom: 3%;
@@ -512,6 +442,72 @@ footer {
             padding-top: 10%;
             opacity: 0.5;
             transform: scale(1);
+        }
+    }
+}
+.modal-content {
+    background-color: var(--colorPrimary);
+    color: var(--colorSecondary);
+    font-family: "Baloo 2";
+    font-size: 1em;
+    font-weight: bold;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    .modal__Top {
+        padding-bottom: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        h2 {
+            width: 75%;
+            font-weight: bolder;
+            font-size: 1.5em;
+            letter-spacing: 0.1em;
+            text-align: left;
+        }
+        .btn-close {
+            margin-right: 5%;
+            background-color: var(--colorSecondary);
+        }
+    }
+    .modal-body {
+        border-top: var(--colorSecondary) solid 1px;
+        .middle {
+            // background-color: khaki;
+            .modal__bottom {
+                //    background-color: red;
+                margin-top: 2%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                .modalE {
+                    transform: scale(1.1);
+                }
+                .btnSubmit {
+                    text-decoration: none;
+                    color: var(--colorSecondary);
+                    text-align: center;
+                    font-size: 1em;
+                    font-weight: bolder;
+                    //height: 15%;
+                    background-color: var(--colorPrimary);
+                    border: var(--colorSecondary) solid 1px;
+                    border-radius: 0.2em;
+                    // margin-bottom: 5%;
+                }
+            }
+            .colGeneral {
+                //  background-color: lightcoral;
+                margin-top: 2%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                .form_contact--img {
+                    width: 100%;
+                    transform: scale(0.7);
+                }
+            }
         }
     }
 }

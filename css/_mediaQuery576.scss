@@ -99,12 +99,47 @@
             }
         }
     }
+    .modal-content {
+        font-size: 1.1em;
+        .modal__Top {
+            h2 {
+                font-size: 1.5em;
+            }
+            .btn-close {
+                margin-right: 5%;
+            }
+        }
+        .modal-body {
+            .middle {
+                .modal__bottom {
+                    margin-top: 5%;
+                    .modalE {
+                        transform: scale(1.5);
+                    }
+                    .btnSubmit {
+                        font-size: 1.2em;
+                    }
+                }
+                .colGeneral {
+                    //  background-color: lightcoral;
+                    margin-top: 2%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    .form_contact--img {
+                        width: 100%;
+                        transform: scale(0.7);
+                    }
+                }
+            }
+        }
+    }
 
     // C A T A L O G S
 
     .catalogSectionA {
         .desLogLink__title {
-            font-size:2.2em;
+            font-size: 2.2em;
         }
         .pComent {
             font-size: 1em;
