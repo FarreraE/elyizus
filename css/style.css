@@ -545,11 +545,6 @@ header .header__nav .nav-link:hover {
   border-top: var(--colorSecondary) solid 1px;
 }
 
-.modal-content .modal-body .form_contact--img {
-  -webkit-transform: scale(0.4);
-          transform: scale(0.4);
-}
-
 .modal-content .modal-body .middle .btnSubmit {
   width: 50%;
   padding: 2% 5%;
@@ -584,7 +579,7 @@ header .header__nav .nav-link:hover {
           transform: scale(1.2);
 }
 
-.modal-content .modal-body .colGeneral {
+.modal-content .modal-body .middle .colGeneral {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -594,6 +589,11 @@ header .header__nav .nav-link:hover {
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.modal-content .modal-body .middle .colGeneral .form_contact--img {
+  -webkit-transform: scale(0.6);
+          transform: scale(0.6);
 }
 
 footer {

@@ -429,9 +429,7 @@ header {
     }
     .modal-body {
         border-top: var(--colorSecondary) solid 1px;
-        .form_contact--img {
-            transform: scale(0.4);
-        }
+
         .middle {
             .btnSubmit {
                 width: 50%;
@@ -457,11 +455,14 @@ header {
                     transform: scale(1.2);
                 }
             }
-        }
-        .colGeneral {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
+            .colGeneral {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                .form_contact--img {
+                    transform: scale(0.6);
+                }
+            }
         }
     }
 }
