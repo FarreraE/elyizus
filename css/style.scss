@@ -430,11 +430,11 @@ header {
     .modal-body {
         border-top: var(--colorSecondary) solid 1px;
         .form_contact--img {
-            transform: scale(0.6);
+            transform: scale(0.4);
         }
         .colGeneral {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             justify-content: space-around;
         }
         .btnSubmit {
@@ -458,7 +458,7 @@ header {
             justify-content: space-between;
             align-items: center;
             .modalE {
-                transform: scale(1.1);
+                transform: scale(1.2);
             }
         }
     }

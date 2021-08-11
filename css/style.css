@@ -546,18 +546,18 @@ header .header__nav .nav-link:hover {
 }
 
 .modal-content .modal-body .form_contact--img {
-  -webkit-transform: scale(0.6);
-          transform: scale(0.6);
+  -webkit-transform: scale(0.4);
+          transform: scale(0.4);
 }
 
 .modal-content .modal-body .colGeneral {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
@@ -591,8 +591,8 @@ header .header__nav .nav-link:hover {
 }
 
 .modal-content .modal-body .modal__bottom .modalE {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 footer {
