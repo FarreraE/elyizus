@@ -412,6 +412,7 @@ header {
     padding-top: 5%;
     padding-bottom: 2%;
     .modal__Top {
+        padding-bottom: 2%;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -429,38 +430,42 @@ header {
     }
     .modal-body {
         border-top: var(--colorSecondary) solid 1px;
-
         .middle {
-            .btnSubmit {
-                width: 50%;
-                padding: 2% 5%;
-                text-decoration: none;
-                color: var(--colorSecondary);
-                text-align: center;
-                font-size: 1em;
-                font-weight: bolder;
-                //height: 15%;
-                background-color: var(--colorPrimary);
-                border: var(--colorSecondary) solid 1px;
-                border-radius: 0.2em;
-                // margin-bottom: 5%;
-            }
+           // background-color: khaki;
             .modal__bottom {
-                //background-color: red;
+            //    background-color: red;
+                margin-top: 2%;
                 display: flex;
                 flex-direction: row;
-                justify-content: space-between;
+                justify-content: space-around;
                 align-items: center;
                 .modalE {
-                    transform: scale(1.2);
+                    transform: scale(1.1);
+                }
+                .btnSubmit {
+                    
+                    padding: 2% 5%;
+                    text-decoration: none;
+                    color: var(--colorSecondary);
+                    text-align: center;
+                    font-size: 1.2em;
+                    font-weight: bolder;
+                    //height: 15%;
+                    background-color: var(--colorPrimary);
+                    border: var(--colorSecondary) solid 1px;
+                    border-radius: 0.2em;
+                    // margin-bottom: 5%;
                 }
             }
             .colGeneral {
+              //  background-color: lightcoral;
+                margin-top: 2%;
                 display: flex;
                 flex-direction: row;
                 justify-content: space-around;
                 .form_contact--img {
-                    transform: scale(0.6);
+                   width: 100%;
+                    transform: scale(0.7);
                 }
             }
         }

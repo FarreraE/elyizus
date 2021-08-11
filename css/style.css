@@ -517,6 +517,7 @@ header .header__nav .nav-link:hover {
 }
 
 .modal-content .modal__Top {
+  padding-bottom: 2%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -545,20 +546,8 @@ header .header__nav .nav-link:hover {
   border-top: var(--colorSecondary) solid 1px;
 }
 
-.modal-content .modal-body .middle .btnSubmit {
-  width: 50%;
-  padding: 2% 5%;
-  text-decoration: none;
-  color: var(--colorSecondary);
-  text-align: center;
-  font-size: 1em;
-  font-weight: bolder;
-  background-color: var(--colorPrimary);
-  border: var(--colorSecondary) solid 1px;
-  border-radius: 0.2em;
-}
-
 .modal-content .modal-body .middle .modal__bottom {
+  margin-top: 2%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -566,20 +555,32 @@ header .header__nav .nav-link:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
 .modal-content .modal-body .middle .modal__bottom .modalE {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.modal-content .modal-body .middle .modal__bottom .btnSubmit {
+  padding: 2% 5%;
+  text-decoration: none;
+  color: var(--colorSecondary);
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bolder;
+  background-color: var(--colorPrimary);
+  border: var(--colorSecondary) solid 1px;
+  border-radius: 0.2em;
 }
 
 .modal-content .modal-body .middle .colGeneral {
+  margin-top: 2%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -592,8 +593,9 @@ header .header__nav .nav-link:hover {
 }
 
 .modal-content .modal-body .middle .colGeneral .form_contact--img {
-  -webkit-transform: scale(0.6);
-          transform: scale(0.6);
+  width: 100%;
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
 }
 
 footer {
