@@ -432,34 +432,36 @@ header {
         .form_contact--img {
             transform: scale(0.4);
         }
+        .middle {
+            .btnSubmit {
+                width: 50%;
+                padding: 2% 5%;
+                text-decoration: none;
+                color: var(--colorSecondary);
+                text-align: center;
+                font-size: 1em;
+                font-weight: bolder;
+                //height: 15%;
+                background-color: var(--colorPrimary);
+                border: var(--colorSecondary) solid 1px;
+                border-radius: 0.2em;
+                // margin-bottom: 5%;
+            }
+            .modal__bottom {
+                //background-color: red;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                .modalE {
+                    transform: scale(1.2);
+                }
+            }
+        }
         .colGeneral {
             display: flex;
             flex-direction: row;
             justify-content: space-around;
-        }
-        .btnSubmit {
-            
-            padding: 2% 5%;
-            text-decoration: none;
-            color: var(--colorSecondary);
-            text-align: center;
-            font-size: 1em;
-            font-weight: bolder;
-            //height: 15%;
-            background-color: var(--colorPrimary);
-            border: var(--colorSecondary) solid 1px;
-            border-radius: 0.2em;
-            // margin-bottom: 5%;
-        }
-        .modal__bottom {
-            //background-color: red;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            .modalE {
-                transform: scale(1.2);
-            }
         }
     }
 }
