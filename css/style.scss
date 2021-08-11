@@ -401,10 +401,11 @@ header {
     }
 }
 .modal-content {
+    width: 80%;
     background-color: var(--colorPrimary);
     color: var(--colorSecondary);
     font-family: "Baloo 2";
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: bold;
     justify-content: center;
     width: 100%;
@@ -429,7 +430,7 @@ header {
     .modal-body {
         border-top: var(--colorSecondary) solid 1px;
         .form_contact--img {
-            transform: scale(0.7);
+            transform: scale(0.9);
         }
         .colGeneral {
             display: flex;
@@ -437,10 +438,11 @@ header {
             justify-content: space-around;
         }
         .btnSubmit {
+            
             padding: 2% 5%;
             text-decoration: none;
             color: var(--colorSecondary);
-            text-align: right;
+            text-align: center;
             font-size: 1em;
             font-weight: bolder;
             //height: 15%;

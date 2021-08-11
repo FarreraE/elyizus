@@ -502,10 +502,11 @@ header .header__nav .nav-link:hover {
 }
 
 .modal-content {
+  width: 80%;
   background-color: var(--colorPrimary);
   color: var(--colorSecondary);
   font-family: "Baloo 2";
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-weight: bold;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -545,8 +546,8 @@ header .header__nav .nav-link:hover {
 }
 
 .modal-content .modal-body .form_contact--img {
-  -webkit-transform: scale(0.7);
-          transform: scale(0.7);
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
 }
 
 .modal-content .modal-body .colGeneral {
@@ -565,7 +566,7 @@ header .header__nav .nav-link:hover {
   padding: 2% 5%;
   text-decoration: none;
   color: var(--colorSecondary);
-  text-align: right;
+  text-align: center;
   font-size: 1em;
   font-weight: bolder;
   background-color: var(--colorPrimary);
