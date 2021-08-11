@@ -568,7 +568,6 @@ header .header__nav .nav-link:hover {
 }
 
 .modal-content .modal-body .middle .modal__bottom .btnSubmit {
-  padding: 2% 5%;
   text-decoration: none;
   color: var(--colorSecondary);
   text-align: center;
