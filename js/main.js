@@ -128,12 +128,12 @@ function displayerAselector(option) {
             btnElyizus.style = "color: var(--colorVSQoutes);opacity: 1;"
             break;
         case 2:
-            sectionADisplayer.innerHTML = "<span class=codeVSTag> <h2 data-aos=flip-down>ABOUT ME!</h2></span> <p data-aos=flip-up>Computer technician with adaptability for teamwork, skills for research, analysis, and problem-solving. Knowledge of computer packages, programming languages, and basics of telematic networks. I aim to create or find a project to implement my knowledge assets and develop new skills.<br><span class=codeVSTag>TOOLS:</span> JS - HTML - CSS - VBA - Windows OS Office - Photoshop - Illustrator - VSC and more. </p>";
+            sectionADisplayer.innerHTML = "<span class=codeVSTag> <h2 data-aos=flip-down>ABOUT ME!</h2></span> <p data-aos=flip-up>Computer technician with adaptability for teamwork, skills for research, analysis, and problem-solving. Knowledge of computer packages, programming languages, and basics of telematic networks. I aim to create or find a project to implement my knowledge assets and develop new skills.<br><span class=codeVSTag></br>TOOLS:</span> JS - HTML - CSS - VBA - Windows OS Office - Photoshop - Illustrator - VSC and more. </p>";
             btnSkills.style = "color: var(--colorVSTag);opacity: 1;"
             break;
 
         case 3:
-            sectionADisplayer.innerHTML = "<iframe style= border:none  width= 100%  height= 100%  src= https://whimsical.com/embed/CJquBgRFxUxDYGEi6KDwQi@7YNFXnKbYj6915fhTLvEJ ></iframe>";
+            sectionADisplayer.innerHTML = "<iframe style= border:none  width= 100%  height= 400px  src= https://whimsical.com/embed/CJquBgRFxUxDYGEi6KDwQi@VsSo8s35WukU467Q9aZu2p ></iframe>";
             btnTime.style = "color: var(--colorVSComment); opacity: 1;"
             break;
         /*  case 4:
